@@ -1,0 +1,39 @@
+.messageField {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.messageField__field {
+  flex: 1;
+  padding: calc(8px + 2vmin);
+}
+.messageField__inputs {
+  display: flex;
+  align-items: center;
+}
+.messageField__inputs input {
+  font-size: calc(6px + 2vmin);
+  height: 100%;
+  flex: 1;
+  padding: 10px;
+  background-color: #deeee5;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+.messageField__inputs button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 15px;
+  background: rgb(38, 57, 168);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+.messageField__inputs button:hover { background: red; }
+.messageField__inputs button:active {
+  background: rgb(197, 240, 5);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
