@@ -1,0 +1,17 @@
+.App {
+  padding: 20px;
+  background: url(https://phonoteka.org/uploads/posts/2021-04/1619527956_22-phonoteka_org-p-derevyannii-fon-dlya-fotoshopa-svetlii-27.jpg);
+  width: 780px;
+  margin: 30px auto;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  overflow: hidden;
+  min-height: 530px;
+  position: relative;
+}
+
+.App p {
+  color: #d54d7b;
+  font-family: «Great Vibes», cursive;
+  text-shadow: 0 1px 1px #fff; 
+}
