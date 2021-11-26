@@ -1,0 +1,12 @@
+.link {
+  color: black;
+  text-transform: capitalize;
+}
+.link:hover{
+  color: blue;
+}
+
+.activeLink {
+  color: red !important;
+  border-bottom: 1px solid red !important;
+}

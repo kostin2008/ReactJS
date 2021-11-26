@@ -1,0 +1,15 @@
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #a8bbbb;
+}
+.profile__text {
+  font-size: 20px;
+  color: #54478b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  
+}

@@ -1,0 +1,18 @@
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #a8bbbb;
+}
+.main__text {
+  font-size: 20px;
+  color: #54478b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  & span {
+    font-weight: bold;
+    color: brown;
+  }
+}
