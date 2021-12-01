@@ -1,0 +1,33 @@
+/*.messageField {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  &__field {
+    flex: 1;
+    padding: calc(8px + 2vmin);
+
+  }
+  &__inputs {
+    height: 6vh;
+    background-color: rgb(174, 165, 189);
+    display: flex;
+    input {
+      font-size: calc(6px + 2vmin);
+      height: 100%;
+      flex: 1;
+      padding: 10px;
+      background-color: rgb(222, 238, 229);
+      cursor: pointer;
+
+    }
+    button {
+      font-size: calc(3px + 2vmin);
+      padding: 7px;
+      background-color: rgb(235, 126, 126);
+    }
+  }
+}*/
+.inputField {
+  padding: 10px;
+  width: 60%;
+}

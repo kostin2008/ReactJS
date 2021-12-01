@@ -1,0 +1,27 @@
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #a8bbbb;
+}
+.profile__text {
+  font-size: 20px;
+  color: #54478b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  
+}
+.show_name_text {
+  margin-right: 3px;
+}
+.show_name_label {
+  cursor: pointer;
+}
+.show_name_wrapper {
+  padding: 8px;
+}
+.show_name_name {
+  color: #54478b;
+}
