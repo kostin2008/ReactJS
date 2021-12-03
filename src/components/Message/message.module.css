@@ -1,0 +1,11 @@
+
+.message__text {
+  margin-bottom: 6px;
+}
+
+.user__text {
+  color: blue;
+}
+.robot__text {
+  color: red;
+}
