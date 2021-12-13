@@ -1,0 +1,44 @@
+header {
+  background-color: #c3e7d4;
+  display: flex;
+  
+  height: 10vh;
+  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  align-items: center;
+} 
+h3 {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  color: #54478b;
+  font-size: calc(12px + 2vmin);
+  cursor: pointer;
+}
+p {
+  font-size: calc(8px + 2vmin);
+}
+
+.menu {
+  display: flex;
+}
+
+
+
+.menu__list {
+  
+  margin-right: calc(5px + 2vh);
+  
+  font-size: calc(8px + 1vh);
+}
+.menu__list:last-child {
+  margin-right: 0;
+}
+
+.menu__list a {
+  color: gray;
+  
+}
+.activeLink {
+  color: red !important;
+  border-bottom: 1px solid red !important;
+}
