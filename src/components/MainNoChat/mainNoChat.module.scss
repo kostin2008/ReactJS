@@ -1,0 +1,26 @@
+main {
+  height: 90vh;
+}
+
+.chatMessageField {
+  height: 90vh;
+  background-color: rgb(168, 187, 187);
+  display: flex;
+}
+
+.chatField {
+  width:15%;
+  min-width: 220px;
+  background-color: #C0C0C0;
+  height: 100%;
+  border-right: 1px solid rgb(102, 100, 100);
+}
+.messageField {
+  width: 85%;
+  min-width: 300px;
+  overflow-y: auto;
+}
+.messageField__text {
+  padding: calc(8px + 2vmin);
+}
+
